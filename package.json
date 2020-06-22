@@ -17,6 +17,7 @@
       "tests/**"
     ]
   },
+  "prettier": "prettier-config-standard",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/angelilton/spotifyAPI.git"
@@ -33,6 +34,7 @@
   },
   "homepage": "https://github.com/angelilton/spotifyAPI#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
@@ -48,8 +50,11 @@
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
     "mocha": "^8.0.1",
+    "node-fetch": "^2.6.0",
     "nyc": "^15.1.0",
     "prettier": "2.0.5",
-    "prettier-config-standard": "1.0.1"
+    "prettier-config-standard": "1.0.1",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
   }
 }
