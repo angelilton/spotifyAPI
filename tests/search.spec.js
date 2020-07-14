@@ -16,7 +16,7 @@ sinonStubPromise(sinon)
 
 global.fetch = require('node-fetch')
 
-describe('Spotify API', () => {
+describe('Search', () => {
   let stubedFetch
   let promise
 
