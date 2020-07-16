@@ -1,4 +1,4 @@
-import { searchAlbums } from '../src/main'
+import { searchAlbums } from '../src/index'
 global.fetch = require('node-fetch')
 
 const albums = searchAlbums('muse')
