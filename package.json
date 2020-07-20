@@ -11,7 +11,7 @@
     "build:umd:min": "./node_modules/.bin/webpack --output-filename spotifyAPI.umd.min.js -p",
     "build:all": "yarn build && yarn build:umd && npm run build:umd:min",
     "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
-    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch",
     "test:cover": "nyc yarn test"
   },
   "files": [
